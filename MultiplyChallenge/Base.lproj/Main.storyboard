@@ -37,7 +37,7 @@
                                     <action selector="onCalculateButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ngf-C6-rjQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNC-Vu-jvM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNC-Vu-jvM">
                                 <rect key="frame" x="104" y="280" width="113" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -171,9 +171,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aed-Ts-OxK"/>
                                     <action selector="onPressBackspace:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BW3-2c-Baf"/>
-                                    <action selector="onPressClearLabel:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="j3j-BB-ry0"/>
                                 </connections>
                             </button>
                         </subviews>

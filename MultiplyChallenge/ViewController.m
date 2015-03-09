@@ -89,12 +89,13 @@ int selectedSegment = 0;
 - (IBAction)onPressClearLabel:(id)sender {
     self.calculatorNumberLabel.text = @"";
 }
-//- (IBAction)onPressBackspace:(id)sender {
-//    NSString *tempString = self.calculatorNumberLabel.text;
-//    NSString *tempStringTwo;
-//    tempStringTwo = [tempString substringToIndex:[tempString length] - 1];
-//    self.calculatorNumberLabel.text = tempStringTwo;
-//}
+- (IBAction)onPressBackspace:(id)sender {
+    NSString *tempString = self.calculatorNumberLabel.text;
+    NSString *tempStringTwo;
+    tempStringTwo = [tempString substringToIndex:[tempString length] - 1];
+    self.calculatorNumberLabel.text = tempStringTwo;
+}
+
 
 
 
